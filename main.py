@@ -11,6 +11,7 @@ os.chdir(destination)
 game_site_links = []
 zip_file_url_links = []
 
+print("Hello..")
 url = "https://www.dosgames.com/listing.php?sortby=popular&sterms2=&titlesonly=on&cat=all&tag=&license=all&year=all&filesize=all&developer=all&publisher=all&page={}".format(page_to_download)
 
 print(url)
